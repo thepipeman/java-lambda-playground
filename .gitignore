@@ -1,23 +1,33 @@
-# Compiled class file
-*.class
-
-# Log file
+# ignored files extensions
+*.bak
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+*.pdf
 *.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# ignored directories
+target
+files
+bin
+.svn
+out
+
+# eclipse
+.projects
+.settings
+.metadata
+*.classpath
+*.project
+*.projects
+
+# idea
+.idea
+*.iml
+*.ipr
+*.iws
+*.ids
+atlassian-ide-plugin.xml
+
+# mock
+mock.js
+
+*.flattened-pom.xml
